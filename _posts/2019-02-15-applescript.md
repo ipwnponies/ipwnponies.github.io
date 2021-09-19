@@ -40,19 +40,30 @@ Edit: I got around to writing a [post][smart-apostrophe] about smart quotes.
 ## OS Menulet
 
 ```applescript
-activate application "SystemUIServer"
-tell application "System Events" to tell process "SystemUIServer"
-        set btMenu to (menu bar item 1 of menu bar 1 whose description contains "bluetooth")
-        tell btMenu
-            click
-            tell (menu item "Foo's AirPods" of menu 1)
+tell application "System Events" to tell process "ControlCenter"
+    -- Click the Control Center icon in menu bar
+    click menu bar item "control center" of menu bar 1
+
+    -- Control popdown
+    tell checkbox "bluetooth" of group 1 of group 1 of window "Control Center"
+        -- Checkbox's primary action is toggling, we want to get the full menu
+        perform action 2
+        delay 0.8
+    end tell
+
+    -- Bluetooth menu
+    tell group 1 of group 1 of window "Control Center"
+        tell (checkbox 1 whose name starts with "Foo’s AirPods")
+            set disconnected to (value = 0)
+            if disconnected then
                 click
-                if exists menu item "Connect" of menu 1 then
-                    click menu item "Connect" of menu 1
-                    return "Connecting..."
-                end if
-            end tell
+            end if
         end tell
+    end tell
+
+    -- Close out control center
+    click menu bar item "control center" of menu bar 1
+    click menu bar item "control center" of menu bar 1
 end tell
 ```
 
