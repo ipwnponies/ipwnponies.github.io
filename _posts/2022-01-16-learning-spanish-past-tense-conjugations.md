@@ -1,5 +1,5 @@
 ---
-title: Past Tense Verb Conjugations
+title: Learning Spanish - Past Tense Verb Conjugations
 categories:
 tags:
   - linguistics

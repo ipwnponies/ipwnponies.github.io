@@ -1,5 +1,5 @@
 ---
-title: Spanish Verb Type
+title: Learning Spanish - Verb Types
 categories:
   - language
 tags:
