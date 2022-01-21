@@ -57,10 +57,26 @@ But the [gist is the same][1]:
 
 [1]: https://thefinancebuff.com/the-backdoor-roth-ira-a-complete-how-to.html
 
-1. Make a post-tax contribution to a **Traditional IRA**
-1. Convert the Traditional IRA to Roth IRA
-  Assuming the value in your IRA is entirely post-tax, there will be no taxes from this event
-1. Report the conversion on tax return
+1. Make a post-tax contribution to a **Traditional IRA**.
+1. Convert the Traditional IRA to Roth IRA.
+1. Report the conversion on tax return.
+
+This [article][fidelity-backdoor] covers how to perform this with Fidelity, which is entirely self-serviced and
+straight-forward.
+
+[fidelity-backdoor]: https://www.thepainvestor.com/2020/06/15/the-backdoor-roth-tutorial-with-fidelity/
+
+If the IRA has a proportion of pre-tax contributions, then the proportional amount will be transfered.
+i.e. If there was already $1000 of pre-tax contributions and $500 is contributed post-tax, then any amount backdoored
+will be 66% from the pre-tax contribution.
+
+If you don't have an IRA, then this is actually not complicated as 100% of the contribution will be post-tax.
+This may be quite common, if you'ver never contirbuted to an IRA before.
+If so, it may be prudent to keep this invariant, to keep the backdoor strategy simple for future years.
+This means never leaving post-tax contribution in IRA, which has no benefit on its own anyways (from my understanding).
+
+If you have historically had an IRA but then no longer qualified for IRA pre-tax contribution, then you have to weigh
+the cost of all this accounting vs. the benefit of $6000 in a post-tax registered account.
 
 ### Tax Filing Backdoor Roth Conversion
 
@@ -77,5 +93,6 @@ This post from the [Finance Buff][2] has step-by-step instructions for report it
 The reason for all this paperwork is because Traditional IRAs allow both pre and post-tax contributions.
 When converting, you resolve tax obligations by paying the prorata tax on earnings.
 
-If you do not have anything in Traditional IRAs, then 100% of the value will be post-tax and these steps are trivial.
+If you did not have an existing Traditional IRAs, then 100% of the transferred value will be post-tax and these steps
+are actually quite trivial.
 Otherwise, you need to calculate gains and losses, as well as amount of conversion apportioned to pre-tax.
