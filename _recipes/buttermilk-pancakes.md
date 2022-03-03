@@ -6,20 +6,21 @@ tags:
 - pancakes
 ---
 
-# Recipe
+## Recipe
 
 Ingredient | Baker's %
 |-|-|
 Flour | 100% (by definition, just adding for completeness)
-Buttermilk | 190%
-Sugar | 15%
-Oil | 11%
-Egg | 20%
-Baking soda | 2 %
+Baking soda | 1 %
 Baking powder | 2 %
 Salt | 1.5 %
+Sugar | 10%
+Buttermilk | 190%
+Water | 10%
+Oil | 11%
+Egg | 20%
 
-# Technique
+## Technique
 
 1. Sift all dry ingredients together.
 1. Whisk all wet ingredients together in another bowl.
@@ -31,7 +32,9 @@ Salt | 1.5 %
 1. Flip after halfway cooked, about 1-1.5 minutes.
 1. Serve.
 
-# Tips
+## Tips
 
-* This will produce a thick, lumpy batter.
+* This will produce a thick, lumpy batter, which results in tall pancakes.
+  Thin it out with water or milk.
 * Cool pancakes on a cooling rack, to avoid soggy bottoms.
+* If these brown too quickly, reduce sugar or baking soda.
