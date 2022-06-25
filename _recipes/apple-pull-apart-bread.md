@@ -23,7 +23,7 @@ This recipe is adapted from [King Arthur Baking][1].
 | Sugar           |                14% | 50                            |
 | Yeast (instant) |                 2% | 2.25 tsp (packet)             |
 | Butter (melted) |                16% | 56                            |
-| Eggs            |                 2% | 2 large                       |
+| Eggs            |                28% | 2 large                       |
 | Milk            |                21% | 75                            |
 | Water           |                15% | 55                            |
 | Vanilla extract |               1.3% | 5 g                           |
