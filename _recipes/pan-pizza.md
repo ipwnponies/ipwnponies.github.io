@@ -49,7 +49,7 @@ Replace between 10-20% of the flour with sourdough starter.
    Leave for 30 minutes to autolyse.
    Reserve some water for dissolving yeast and salt.
 1. Mix in yeast/starter and salt.
-   Add oil at this this, if using.
+   Add oil at this time, if using.
    Mix until dough is fully moisten.
 1. Cover and leave on counter for 12 hours.
 1. Move to fridge, to cold ferment, for 2-4 days.
