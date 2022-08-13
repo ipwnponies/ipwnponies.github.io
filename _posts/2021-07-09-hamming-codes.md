@@ -3,7 +3,7 @@ title: Hamming Codes
 categories: math
 tags:
   - computer science
-  - algorithm
+  - algorithms
 ---
 
 Hamming codes are an error-correcting code.

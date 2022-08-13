@@ -1,12 +1,12 @@
 ---
 title: Kadane's Algorithm
 category:
-- programming
+  - programming
 tags:
-- algorithm
+  - algorithms
 ---
 
-[Kadane's algorithm][1] is also known as *Maximum Sum of Subarray*.
+[Kadane's algorithm][1] is also known as _Maximum Sum of Subarray_.
 It's an algorithm for finding the contiguous subarray with the largest sum.
 
 [1]: https://en.wikipedia.org/wiki/Maximum_subarray_problem

@@ -1,10 +1,10 @@
 ---
 title: Graph Traversal Algorithms
 categories:
-- programming
+  - programming
 tags:
-- algorithm
-- computer science
+  - algorithms
+  - computer science
 ---
 
 Today we're going to talk about graph traversal algorithms.
@@ -37,7 +37,7 @@ The most dense graph is fully connected, where every node is connected to every 
 
 ## Dijkstra's Algorithm
 
-[Dijkstra's algorithm][1] is a *single-source shortest path* algorithm.
+[Dijkstra's algorithm][1] is a _single-source shortest path_ algorithm.
 It is a **greedy algorithm**, working on the concept that the shortest path from `u->w` is
 also the shortest path from `u->v` and `v->w`.
 This is implemented with a priority queue, which iteratively relaxes the path costs.
@@ -74,7 +74,7 @@ This means it works very well on sparse graphs.
 
 ## Bellman-Ford Algorithm
 
-Like Dijsktra's, the [Bellman-Ford algorithm][2] is another *single-source shortest path* algorithm.
+Like Dijsktra's, the [Bellman-Ford algorithm][2] is another _single-source shortest path_ algorithm.
 It visits every node and relaxes the shortest path for every edge in graph.
 These changes cascade to downstream edges.
 
@@ -116,7 +116,7 @@ This time complexity is the same as Floyd-Warshall but is only single-source sho
 
 ## Floyd-Warshall
 
-Floyd-Warshall algorithm is an *all-sources shortest path* algorithm.
+Floyd-Warshall algorithm is an _all-sources shortest path_ algorithm.
 It expands the edge costs between vertexes to a 2-d matrix and calculates the shortest path of `u->w` as the
 shortest path of `u->v` and `v->w`.
 

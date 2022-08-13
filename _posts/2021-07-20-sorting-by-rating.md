@@ -2,8 +2,8 @@
 title: Sorting By Rating
 categories: math
 tags:
-- algorithm
-- statistics
+  - algorithms
+  - statistics
 ---
 
 I recently read this post about [SteamDB's rating algorithm][1].
@@ -13,7 +13,7 @@ This is defined as games that have a lot of total review traffic and a majority 
 [1]: https://steamdb.info/blog/steamdb-rating/
 
 It doesn't use the specific review score, just qualitatively binning as either positive or negative.
-This is akin to *Rotten Tomatoes* scores, which are a percentage of thumbs-up/ thumbs-down.
+This is akin to _Rotten Tomatoes_ scores, which are a percentage of thumbs-up/ thumbs-down.
 
 ## Problem With Trivial Sorting by Rating
 
@@ -29,21 +29,21 @@ It highlights two failure cases with trivial algorithms:
 
 ## Elements Needed in Algorithm
 
-We established that we want to put both *total volume* and *positive:negative ratio* into consideration.
-To put in words, we are saying to use the *positive:negative ratio* but give more certainty if there are more total reviews.
+We established that we want to put both _total volume_ and _positive:negative ratio_ into consideration.
+To put in words, we are saying to use the _positive:negative ratio_ but give more certainty if there are more total reviews.
 This can be done by biasing the score, using the total count in an exponential fashion.
 Consider the following setup:
 
-> If *game1* has 10 reviews, 8 positive and 2 negative. The score is ~80%.
+> If _game1_ has 10 reviews, 8 positive and 2 negative. The score is ~80%.
 >
-> If *game2* has 100 reviews, 79 positive and 21 negative. The score is 79%.
+> If _game2_ has 100 reviews, 79 positive and 21 negative. The score is 79%.
 
 You can intuit that you probably want to rank the second game higher, even though it objectivelyi has the lower score.
 There is less uncertainty and we can consider its score is be more stable.
-Another bad review to *game1* will change its score to **73%** (8/11, -7%),
-while *game2* will change to **78%** (80/101, -1%).
+Another bad review to _game1_ will change its score to **73%** (8/11, -7%),
+while _game2_ will change to **78%** (80/101, -1%).
 It's stable because it's closer to the true score and we have higher confidence that additional reviews
- will not significantly change the scoring.
+will not significantly change the scoring.
 
 ## Formula
 
@@ -61,11 +61,11 @@ The more reviews we have, the lower this weighting should be (negative exponent)
 This will significantly depress scoring on games with low total review count, which reflects the uncertainty
 we have in the score.
 
-As review counts increase, we converge closer to what we believe is the *true score*.
+As review counts increase, we converge closer to what we believe is the _true score_.
 
 ## Old Formula
 
-The previous formula SteamDB used is called the [*Wilson's Score*][3].
+The previous formula SteamDB used is called the [_Wilson's Score_][3].
 I've taken a look at it and it's a doozy.
 It requires statistics knowledge and I am not qualified to make any determination on its correct usage.
 While it may be mathematically correct or give higher precision, I think the simpler score we've established here

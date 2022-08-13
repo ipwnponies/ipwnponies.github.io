@@ -3,7 +3,7 @@ title: How Bullets Work In FPS
 categories: gaming
 tags:
   - game dev
-  - algorithm
+  - algorithms
 ---
 
 I recently watched a [video][1] that explained how bullets work in _First-Person Shooters_.

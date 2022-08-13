@@ -2,7 +2,7 @@
 title: Dithering
 categories: gaming
 tags:
-  - algorithm
+  - algorithms
   - images
   - game dev
 ---

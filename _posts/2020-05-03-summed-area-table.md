@@ -3,7 +3,7 @@ title: Summed Area Table
 categories:
   - programming
 tags:
-  - algorithm
+  - algorithms
 ---
 
 A [summed area table][1] is a handy data structure for calculating summed area in a matrix.
