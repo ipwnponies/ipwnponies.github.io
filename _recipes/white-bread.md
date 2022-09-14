@@ -1,8 +1,8 @@
 ---
 title: White Sandwich Bread
 tags:
-- baking
-- bread
+  - baking
+  - bread
 ---
 
 This recipe is adapted from [King Arthur Flour][king-arthur-flour].
@@ -13,14 +13,14 @@ I corroborated the technique and ingredients along with a similar recipe from [E
 
 ## Recipe
 
-Ingredient | Baker's Percentage | Weight for 1 lb loaf pan (g)
--|-:|-:
-Flour | 100% | 360
-Water or Milk | 65% | 235
-Butter (melted) | 6% | 20
-Honey or Sugar | 6% | 20
-Yeast | 1.5% | 5
-Salt | 2% | 7
+| Ingredient      | Baker's Percentage | Weight for 1 lb loaf pan (g) |
+| --------------- | -----------------: | ---------------------------: |
+| Flour           |               100% |                          360 |
+| Water or Milk   |                65% |                          235 |
+| Butter (melted) |                 6% |                           20 |
+| Honey or Sugar  |                 6% |                           20 |
+| Yeast           |               1.5% |                            5 |
+| Salt            |                 2% |                            7 |
 
 ## Note
 
@@ -31,18 +31,33 @@ The yeast was very vigorous in my warm kitchen (25 C). Consider using less yeast
 ## Technique
 
 1. Mix everything in a stand mixer.
-    The dough should be smooth (not sticky) and very soft when done, >10 minutes.
-    Alternatively, knead by hand.
-    This will require slap and fold technique.
+   The dough should be smooth (not sticky) and very soft when done, >10 minutes.
+   Alternatively, knead by hand.
+   This will require slap and fold technique.
 1. Rise dough for 60-90 minutes.
 1. Punch down dough and pat out into a rectangle.
-    Envelop fold and roll into a tight log.
-    Be sure to tighten and seal the seam.
+   Envelop fold and roll into a tight log.
+   Be sure to tighten and seal the seam.
 1. Put dough into a greased and floured pan.
-    Allow to rise for 45 minutes.
+   Allow to rise for 45 minutes.
 1. Preheat oven to 350F (175C).
 1. Bake for 40 minutes.
-    When crust starts getting brown, cover with tin foil.
-    Bread is done when at 195-200F.
+   When crust starts getting brown, cover with tin foil.
+   Bread is done when at 195-200F.
 1. Remove from rack after 5 minutes.
-    Cool on rack completely before bagging away.
+   Cool on rack completely before bagging away.
+
+## Sourdough Tangzhong
+
+[The Perfect Loaf][perfect-loaf] has a similar recipe that uses both sourdough starter and tangzhong.
+
+[perfect-loaf]: https://www.theperfectloaf.com/sourdough-sandwich-bread-with-pre-cooked-flour/
+
+The tangzhong is typical conversion, which is to make tangzhong with 10% of the flour and 4:1 ratio with liquid.
+
+The sourdough component is typical, with a levain and autolyze stage.
+After that, the bulk fermentation is just you cooking.
+3 stretch and folds over the course of 2 hours to build gluten.
+
+Another note is that I used 450 g of flour and this filled out the whole loaf pan, with a beautiful crown.
+360 g doesn't rise above the loaf pan.
