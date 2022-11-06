@@ -22,4 +22,4 @@ It's the same ratios as [my recipe][white-bread-recipe] but with 15% more hydrat
 I'm going to be shifting the recipe in that direction, as this loaf is plump and rose to teh correct height for my
 loaf pan (previous recipe did not rise over the top of pan).
 
-[white-bread-recipe]: {% link _recipes/white-bread %} White Sandwich Bread
+[white-bread-recipe]: {% link _recipes/white-bread.md %} "White Sandwich Bread"
