@@ -1,19 +1,19 @@
 ---
 title: Cross-compiling to ARM
 categories:
-- programming
+  - programming
 tags:
-- compile
-- arm
+  - compiler
+  - arm
 ---
 
 I've been trying to make my C.H.I.P. into a headless server, for running scripts.
 It's low power and quiet (no fan) so it's a perfect use case.
 It's like an IoT device but an actual computer.
 
-# Motivation
+## Motivation
 
-## Benefit to Using Precompiled Binaries
+### Benefit to Using Precompiled Binaries
 
 Before this, I would usually install prepackaged packages.
 It's the most typical use case, I need to install a program on Ubuntu or Windows and for x86 or x64.
@@ -23,7 +23,7 @@ Using precompiled, packaged binaries takes all the guesswork out of build config
 One person makes the effort to compile and distribute the binaries.
 There's no meaningful work being done with each individual compiling the same source code for the same system architectures.
 
-## Compiling From Source
+### Compiling From Source
 
 When you use an OS or architecture combination that is not popular, there may not exist a packaged binary.
 You would need to compile from source (and maybe be the first to provide binary!).
@@ -35,7 +35,7 @@ This is what I did and was successful.
 But I quickly found out that these small chips are not powerful enough to quickly compile.
 It took me >1 hour to compile `cmake` and >20 minute to compile `fish` shell.
 
-# Why Compiling Code Takes Forever
+## Why Compiling Code Takes Forever
 
 Compiling a set of source code from scratch can take a long time.
 C header files can contain a ton of directives and templates.
@@ -44,7 +44,7 @@ And a lot of the macros can be conditional.
 Every file that imports the same header, may need to reprocess the header, in case it changes.
 For a common header, it can be referenced dozens of times in the include dependency chain of a single object file.
 
-## Optimizations
+### Optimizations
 
 The use of [precompiled headers] can speed up compilation times.
 Just like source code, the headers can be compiled into intermediate files, precompiled headers.
@@ -57,14 +57,14 @@ Many toolchains will include precompiled headers for known libraries.
 
 [include guards]: https://en.wikipedia.org/wiki/Include_guard
 
-# Cross-Compiling
+## Cross-Compiling
 
-## Installing a Cross-Compiler
+### Installing a Cross-Compiler
 
 Install the `gcc-arm-linux-gnueabihf` compiler.
 This compiler will compile down to ARM instruction code, instead of x64 or x86.
 
-## Generate Makefile
+### Generate Makefile
 
 Then configure the project to use your compiler.
 
@@ -82,7 +82,7 @@ cmake -D CMAKE_C_COMPILER=/usr/bin/arm-linux-gnueabihf-gcc -D CMAKE_CXX_COMPILER
 
 <!-- markdownlint-disable MD026 -->
 
-## Profit!
+### Profit!
 
 <!-- markdownlint-enable -->
 

@@ -3,7 +3,7 @@ title: Signs That Your Bakes Are Done
 categories: cooking
 tags:
   - baking
-  - technique
+  - techniques
 ---
 
 Telling when your bake is done is an important skill to have in baking.

@@ -1,12 +1,12 @@
 ---
 title: "Sticky Rice (Xoi)"
 categories:
-- cooking
+  - cooking
 tags:
-- recipe
-- steam
-- dessert
-- vietnamese
+  - recipe
+  - steaming
+  - dessert
+  - vietnamese
 ---
 
 I ended up with a bit of leftover coconut milk, from a previous recipe.
