@@ -1,9 +1,9 @@
 ---
 title: Backdoor Roth
 categories:
-- finances
+  - finances
 tags:
-- tax
+  - tax
 ---
 
 ## IRAs
@@ -64,7 +64,7 @@ But the [gist is the same][1]:
 This [article][fidelity-backdoor] covers how to perform this with Fidelity, which is entirely self-serviced and
 straight-forward.
 
-[fidelity-backdoor]: https://www.thepainvestor.com/2020/06/15/the-backdoor-roth-tutorial-with-fidelity/
+[fidelity-backdoor]: https://web.archive.org/web/20220105233820/https://www.thepainvestor.com/2020/06/15/the-backdoor-roth-tutorial-with-fidelity/
 
 If the IRA has a proportion of pre-tax contributions, then the proportional amount will be transfered.
 i.e. If there was already $1000 of pre-tax contributions and $500 is contributed post-tax, then any amount backdoored
@@ -86,9 +86,9 @@ This post from the [Finance Buff][2] has step-by-step instructions for report it
 
 1. Enter the traditional IRA post-tax contribution.
 1. Enter the distribution, with unknown taxable amount.
-  Tax software will estimate a higher tax obligation (income and 10% penalty fee).
+   Tax software will estimate a higher tax obligation (income and 10% penalty fee).
 1. Enter amount of distribution that was for a Roth IRA conversion.
-  Tax software will fill out the necessary forms, which will reduce distribution income.
+   Tax software will fill out the necessary forms, which will reduce distribution income.
 
 The reason for all this paperwork is because Traditional IRAs allow both pre and post-tax contributions.
 When converting, you resolve tax obligations by paying the prorata tax on earnings.
