@@ -1,8 +1,8 @@
 ---
 title: Fresh Pasta
 tag:
-- pasta
-- kitchenaid
+  - pasta
+  - kitchenaid
 ---
 
 I've been making fresh pasta, now that I've bought the KitchenAid attachment.
@@ -11,7 +11,7 @@ I even got very decent results for a first try.
 
 Here are some of my observations and learnings.
 
-# Ratio
+## Ratio
 
 The baker's percentage is:
 
@@ -30,7 +30,7 @@ Since different flours will hydrate differently, you'll need to adjust according
 - If it's too dry, spray on or sprinkle on some water as you knead.
 - If it's too wet, dust on more flour and knead away.
 
-# Technique
+## Technique
 
 I used the [recipe on SeriousEats](https://www.seriouseats.com/recipes/2015/01/fresh-egg-pasta.html) for directions.
 
@@ -40,17 +40,18 @@ I used the [recipe on SeriousEats](https://www.seriouseats.com/recipes/2015/01/f
 1. Using a fork, beat the egg.
 1. Slowly incorporate flour, while continuing to whisk.
 1. Switch to a bench scraper and fold in remaining flour.
-The key is to do this gradually, so the flour is evenly incorporate and not clumped.
+   The key is to do this gradually, so the flour is evenly incorporate and not clumped.
 1. Knead with palm of hands. Use this as an opportunity to adjust the dough, if needed.
 1. Rest the dough for 30-60 minutes.
-This allows the dough to hydrate and allows the gluten to relax.
+   This allows the dough to hydrate and allows the gluten to relax.
 
 ## Rolling
 
 1. Roll through thickest setting a couple times.
-Fold over and rotate a few times.
-You should try to get a neat book fold.
+   Fold over and rotate a few times.
+   You should try to get a neat book fold.
 1. Roll through progressively smaller settings.
+   Fettucine is setting 5.
 1. Before cutting, dust the dough well to prevent sticking as it goes through cutter.
 1. Dust after cutting to prevent the exposed surfaces from sticking.
 
